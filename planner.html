@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Planner | Olusoji Godwin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+<header>
+    <a class="logo" href="index.html">SOJ.</a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="planner.html">Planner</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main class="section">
+    <p class="eyebrow">STAY ORGANIZED</p>
+    <h1>My Academic Planner</h1>
+
+    <p>
+        Organize your academic activities by adding tasks,
+        marking completed tasks and deleting tasks.
+    </p>
+
+    <section class="card">
+        <h2>Add a New Task</h2>
+
+        <form id="taskForm">
+            <label for="taskInput">Enter academic task:</label>
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="e.g. Study HTML and CSS"
+                required
+            >
+
+            <button class="button" type="submit">Add Task</button>
+        </form>
+
+        <h2>My Tasks</h2>
+
+        <ul id="taskList"></ul>
+    </section>
+</main>
+
+<footer>
+    © <span id="year"></span> Olusoji Godwin | COS 106
+</footer>
+
+</body>
+</html>
